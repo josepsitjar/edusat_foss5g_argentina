@@ -1,0 +1,84 @@
+.banner{
+  background-color: #f4bb12;
+  height: 100px;
+}
+
+
+.logo-sigte-banner{
+  margin-top: 20px;
+  margin-left: 50px;
+  height: 60px;
+}
+
+.center-braket{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom:-10px;
+}
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 17px solid white;
+}
+
+
+.slide-background{
+  border-radius: 20px !important;
+}
+
+
+
+/* overwritte controls position, to avoid overlapp with banner */
+.controls{
+  bottom: 115px !important;
+}
+
+.title-portada{
+  font-size: 40px;
+
+  text-align: left !important;
+}
+
+.author_box{
+  margin-left: 70%;
+  margin-top: 30%;
+}
+
+
+/* STYLE COMPARE IMAGES */
+
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+
+.img-comp-img img {
+  display:block;
+  vertical-align:middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
+}
